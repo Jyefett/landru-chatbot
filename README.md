@@ -91,7 +91,7 @@ Project_Landru/
 ## 🖖 Credits
 
 - Developed by **Jye Crocker**
-- Course: *Generative AI for Games & Media*
+- Course: *Generative AI for Games & Media - Spring 2025 @ Rochester Institute of Technology*
 - Inspired by Star Trek's Landru, LCARS, and 1960s sci-fi aesthetics
 
 > “Landru seeks tranquility… of The Body.”
