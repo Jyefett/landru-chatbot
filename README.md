@@ -2,7 +2,7 @@
 
 **Created by Jye Crocker** for the *Generative AI for Games & Media* final project.
 
-Landru is a sci-fi chatbot powered by OpenAI and ElevenLabs APIs, inspired by the machine-ruler Landru from the original Star Trek series. It features a fully animated LCARS-style interface, generates text, synthesizes audio responses, and produces visualizations for your queries in real-time.
+Landru is a sci-fi chatbot powered by OpenAI and ElevenLabs APIs, inspired by the machine-ruler Landru from the original Star Trek series. It features a fully animated TOS-intro style interface, generates text, synthesizes audio responses, and produces visualizations for your queries in real-time.
 
 ---
 
@@ -92,7 +92,10 @@ Project_Landru/
 
 - Developed by **Jye Crocker**
 - Course: *Generative AI for Games & Media - Spring 2025 @ Rochester Institute of Technology*
-- Inspired by Star Trek's Landru, LCARS, and 1960s sci-fi aesthetics
+
+This project was created as a tribute to the Star Trek universe. Characters, themes, and stylistic elements such as Landru and LCARS are inspired by the intellectual property of Star Trek.
+
+All rights to Star Trek, including names, characters, and design language, belong to Paramount Global and CBS Studios. This project is for educational purposes only and is not affiliated with or endorsed by the official Star Trek franchise.
 
 > “Landru seeks tranquility… of The Body.”
 
