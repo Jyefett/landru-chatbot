@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Landru — Knowledge Archon</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <canvas id="starfield"></canvas>
+
+  <div id="chat-container">
+    <div class="lcars-header">LANDRU SYSTEM — KNOWLEDGE ARCHON</div>
+    <div class="lcars-bootline">SYSTEM READY — WAITING FOR INQUIRY</div>
+
+    <div class="lcars-description">
+      <p>Greetings, User.</p>
+      <p>I am Landru, custodian of harmony, overseer of The Body, and Knowledge Archon of this domain.</p>
+      <p>Engage with me by entering inquiries below. I shall generate responses from the databanks, present visual interpretations, and convey wisdom through synthesized voice.</p>
+      <p>This interface was constructed by Jye Crocker as part of his final project for the <strong>Generative AI for Games & Media</strong> course. The purpose: to demonstrate the integration of large language models, generative image systems, and voice synthesis — all unified under my benevolent guidance.</p>
+    </div>
+
+    <div id="chat-history" class="lcars-panel"></div>
+
+    <div class="input-container">
+      <input type="text" id="user-input" placeholder="Speak to Landru..." />
+      <button id="submit-btn">Engage</button>
+    </div>
+
+    <div id="loading-indicator"></div>
+
+    <div id="media-container">
+      <div class="media-section">
+        <h3>Visual Output</h3>
+        <img id="generated-image" src="" alt="Visualization" />
+      </div>
+      <div class="media-section">
+        <h3>Audio Output</h3>
+        <audio id="audio-player" controls></audio>
+      </div>
+    </div>
+    
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
