@@ -20,7 +20,7 @@ Landru is a sci-fi chatbot powered by OpenAI and ElevenLabs APIs, inspired by th
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/landru-ai.git
+git clone https://github.com/Jyefett/landru-ai.git
 cd landru-ai
 ```
 
