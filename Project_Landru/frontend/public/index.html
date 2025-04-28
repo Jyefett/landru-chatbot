@@ -21,26 +21,32 @@
       <p>This interface was constructed by Jye Crocker as part of his final project for the <strong>Generative AI for Games & Media</strong> course. The purpose: to demonstrate the integration of large language models, generative image systems, and voice synthesis — all unified under my benevolent guidance.</p>
     </div>
 
-    <div id="chat-history" class="lcars-panel"></div>
+    <!-- Side-by-side text + image -->
+    <div id="media-container">
+      <div class="media-section">
+        <h3>Landru's Response</h3>
+        <div id="chat-history" class="lcars-panel"></div>
+      </div>
+
+      <div class="media-section">
+        <h3>Visual Output</h3>
+        <img id="generated-image" src="" alt="Visualization" />
+      </div>
+    </div>
+    <!-- End of side-by-side -->
 
     <div class="input-container">
       <input type="text" id="user-input" placeholder="Speak to Landru..." />
       <button id="submit-btn">Engage</button>
     </div>
+    
+    <div class="media-section" id="audio-container">
+      <h3>Audio Output</h3>
+      <audio id="audio-player" controls></audio>
+    </div>
 
     <div id="loading-indicator"></div>
-
-    <div id="media-container">
-      <div class="media-section">
-        <h3>Visual Output</h3>
-        <img id="generated-image" src="" alt="Visualization" />
-      </div>
-      <div class="media-section">
-        <h3>Audio Output</h3>
-        <audio id="audio-player" controls></audio>
-      </div>
-    </div>
-    
+  </div>
 
   <script src="/static/app.js"></script>
 </body>
