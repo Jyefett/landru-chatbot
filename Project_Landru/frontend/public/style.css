@@ -1,187 +1,215 @@
 body {
-    background-color: #000000;
-    color: #f5c518;
-    font-family: 'Orbitron', sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  #chat-container {
-    width: 80%;
-    max-width: 900px;
-    margin: 2rem auto;
-    border: 2px solid #f5c518;
-    border-radius: 8px;
-    padding: 1rem;
-    background-color: #1a1a1a;
-    box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
-  }
-  
-  .lcars-header {
-    font-size: 2rem;
-    text-align: center;
-    background-color: #000000;
-    color: #63D5FF;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 5px;
-    letter-spacing: 2px;
-  }
-  
-  .lcars-panel {
-    background-color: #222;
-    height: 300px;
-    overflow-y: auto;
-    padding: 1rem;
-    border: 1px solid #f5c518;
-    margin-bottom: 1rem;
-    border-radius: 4px;
-  }
-  
-  .message {
-    margin: 0.5rem 0;
-    padding: 0.5rem;
-    border-left: 4px solid #f5c518;
-  }
-  
-  .message.user {
-    background-color: #333;
-    color: #eee;
-  }
-  
-  .message.landru {
-    background-color: #262626;
-    color: #80ffea;
-    font-style: italic;
-  }
-  
-  .message.error {
-    background-color: #440000;
-    color: #ff8080;
-    border-left-color: red;
-  }
-  
-  .input-container {
-    display: flex;
-    gap: 0.5rem;
-  }
-  
-  input[type="text"] {
-    flex: 1;
-    padding: 0.75rem;
-    background-color: #000;
-    color: #fff;
-    border: 2px solid #f5c518;
-    border-radius: 4px;
-    font-size: 1rem;
-  }
-  
-  button {
-    padding: 0.75rem 1rem;
-    background-color: #FFFF00;
-    color: #000000;
-    font-size: 1rem;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #9d00ff;
-  }
-  
-  #media-container {
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  }
-  
-  .media-section {
-    background-color: #181818;
-    padding: 1rem;
-    border-left: 5px solid #3399ff;
-    border-radius: 6px;
-    box-shadow: 0 0 6px rgba(51, 153, 255, 0.3);
-    text-align: center;
-  }  
-  
-  .media-section h3 {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 1.2rem;
-    color: #ffcc00;
-    margin-bottom: 1rem;
-    letter-spacing: 1px;
-  }
-  
-  
-  #audio-player {
-    width: 100%;
-  }  
-  
-  #generated-image {
-    max-width: 100%;
-    border: 2px solid #f5c518;
-    margin-bottom: 1rem;
-    border-radius: 5px;
-  }
-  
-  .lcars-description {
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 1rem;
-    background-color: #111;
-    border: 1px solid #f5c518;
-    border-radius: 6px;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    color: #f0f0f0;
-  }
-  
-  .lcars-description p {
-    margin: 0.5rem 0;
-  }
-  
+  background-color: #000000;
+  color: #f5c518;
+  font-family: 'Orbitron', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#chat-container {
+  width: 80%;
+  max-width: 900px;
+  margin: 2rem auto;
+  border: 2px solid #f5c518;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #1a1a1a;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+}
+
+.lcars-header {
+  font-size: 2rem;
+  text-align: center;
+  background-color: #000000;
+  color: #63D5FF;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+
+.lcars-panel {
+  background-color: #222;
+  height: 300px;
+  overflow-y: auto;
+  padding: 1rem;
+  border: 1px solid #f5c518;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+
+.message {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-left: 4px solid #f5c518;
+}
+
+.message.user {
+  background-color: #333;
+  color: #eee;
+}
+
+.message.landru {
+  background-color: #262626;
+  color: #80ffea;
+  font-style: italic;
+}
+
+.message.error {
+  background-color: #440000;
+  color: #ff8080;
+  border-left-color: red;
+}
+
+.input-container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 0.75rem;
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #f5c518;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.75rem 1rem;
+  background-color: #FFFF00;
+  color: #000000;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9d00ff;
+}
+
+#media-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.media-section {
+  flex: 1;
+  min-width: 250px;
+  background-color: #181818;
+  padding: 0.5rem;
+  border-left: 5px solid #3399ff;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(51, 153, 255, 0.3);
+  text-align: center;
+  margin-bottom: 0.5rem; 
+}
+
+#audio-container {
+  width: 50%;
+  margin: 2rem auto; /* Top/bottom 2rem, left/right auto */
+  background-color: #181818;
+  padding: 1rem;
+  border-left: 5px solid #3399ff;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(51, 153, 255, 0.3);
+  text-align: center;
+}
+
+.media-section h3 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.2rem;
+  color: #ffcc00;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+
+#audio-player {
+  width: 100%;
+}
+
+#generated-image {
+  max-width: 100%;
+  border: 2px solid #f5c518;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.lcars-description {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 1rem;
+  background-color: #111;
+  border: 1px solid #f5c518;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  color: #f0f0f0;
+}
+
+.lcars-description p {
+  margin: 0.5rem 0;
+}
+
+.lcars-accent-bar {
+  height: 20px;
+  background-color: #FF9900;
+  border-radius: 20px;
+  margin: 10px 0;
+}
+
+@media screen and (min-width: 768px) {
   .lcars-accent-bar {
-    height: 20px;
-    background-color: #FF9900;
-    border-radius: 20px;
-    margin: 10px 0;
+    height: 100%;
+    width: 18px;
+    float: left;
+    margin-right: 20px;
   }
-  
-  @media screen and (min-width: 768px) {
-    .lcars-accent-bar {
-      height: 100%;
-      width: 18px;
-      float: left;
-      margin-right: 20px;
-    }
+}
+
+.lcars-bootline {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 1rem;
+  color: #00ffcc;
+  text-align: center;
+  animation: flicker 2.5s infinite alternate;
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 1;
   }
 
-  .lcars-bootline {
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 1rem;
-    color: #00ffcc;
-    text-align: center;
-    animation: flicker 2.5s infinite alternate;
+  25% {
+    opacity: 0.8;
   }
-  
-  @keyframes flicker {
-    0%   { opacity: 1; }
-    25%  { opacity: 0.8; }
-    50%  { opacity: 0.5; }
-    75%  { opacity: 0.3; }
-    100% { opacity: 0.6; }
-  }  
-  
-  #starfield {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: block;
-    z-index: -1;
-    background-color: black;
-    pointer-events: none; /* just in case */
-  }  
-  
+
+  50% {
+    opacity: 0.5;
+  }
+
+  75% {
+    opacity: 0.3;
+  }
+
+  100% {
+    opacity: 0.6;
+  }
+}
+
+#starfield {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: -1;
+  background-color: black;
+  pointer-events: none;
+}
