@@ -40,6 +40,7 @@ ELEVENLABS_VOICE_ID=your_preferred_voice_id
 
 ### 3. Launch the Flask server
 ```bash
+.\venv\Scripts\activate
 python app.py
 ```
 This starts the backend server at `http://localhost:5000`
